@@ -1,0 +1,32 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#show {
+    float:right
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Are You Serious', cursive;
+}
+
+canvas {
+    border-radius: 20px;
+    animation-name: MyAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MyAnimation {
+    from {box-shadow: 2px 2px 30px grey;}
+
+    to {box-shadow: 2px 2px 30px whitesmoke ;}
+}
